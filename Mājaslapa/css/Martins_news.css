@@ -1,0 +1,115 @@
+
+body {
+   background-color:#ddcdbf;
+}
+
+.topnav {
+  background-color: #c28d4b;
+  overflow: hidden;
+  font-family:Times New Roman;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 105px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #dfbe95;
+  color: #3c311f;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #744924;
+  color: white;
+}
+
+.cimg {
+  display: block;
+  margin-left: 20%;
+}
+h1 {
+	color: #623f1f;
+    text-align: center;
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+	text-align:center;
+	font-family: Calibri;
+}
+b {
+	position: relative;
+	left:0%;
+	color: #3A2113;
+	
+}
+i {
+	position:relative;
+	font-size: 68%;
+	text-align:left;
+	left:0%;
+	color: #3A2113;
+}
+img {
+	position:relative;
+	left:33.8%;
+	text-align:center;
+}
+.iesvetibas{
+	position:relative;
+    text-align:right;
+	right:71.5%;
+}
+.notis {
+	position:relative;
+	text-align:right;
+	right:75%;
+}
+.links {
+	position:relative;
+	right:9.5%;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration:underline;
+}
+a{
+color:#3A2113;
+ text-decoration: $link-decoration;
+  background-color: transparent;
+}
+.runa-konk {
+	position:relative;
+	right:1%;
+}
+.diploms {
+	position:relative;
+	text-align:right;
+	right:71.3%;
+}
+.list {
+	position:absolute;
+	width:30%;
+	right:2%;
+	top:30%;
+    
+}
+.poga {
+	position:absolute;
+	right:28%;
+	top:0%;
+}

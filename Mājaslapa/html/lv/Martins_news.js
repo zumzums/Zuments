@@ -1,0 +1,10 @@
+function myFunction() {
+  var x = document.getElementById("contents");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+var myName="Martins"
+console.log(myName)

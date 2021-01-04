@@ -1,0 +1,81 @@
+body {
+   background-color: #ddcdbf;
+}
+
+h1 {
+	color: #623f1f;
+	text-align: center;
+}
+
+h2 {
+	color: #623f1f;
+	text-align: center;
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 17px;
+	margin-left: 27%;
+}
+
+iframe {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left: 32%;
+}
+
+p {
+	text-align: left;
+	font-size: 25px;
+	color:#3A2113;
+	/*font-family: Calibri;*/
+}
+
+/* unvisited link */
+a:link {
+  color: #744924;
+}
+
+/* visited link */
+a:visited {
+  color: #C5A78A;
+}
+
+/* mouse over link */
+a:hover {
+  color: #301A0B;
+}
+
+/* selected link */
+a:active {
+  color: #947761;
+}
+
+.topnav {
+  background-color: #c28d4b;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 105px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #dfbe95;
+  color: #3c311f;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #744924;
+  color: white;
+}
